@@ -20,9 +20,9 @@ body {
 }
 
 .clock {
-	width: 40rem;
-	height: 40rem;
-	border: 20px solid rgba(224, 239, 253, 0.8);
+	width: 50rem;
+	height: 50rem;
+	border: 20px solid rgba(255, 255, 255, 0.8);
 	border-radius: 50%;
 	margin: 50px auto;
 	position: relative;
@@ -41,7 +41,7 @@ body {
 .hand {
 	width: 50%;
 	height: 6px;
-	background: rgba(224, 239, 253, 1);
+	background: black;
 	border-radius: 5px;
 	position: absolute;
 	top: 50%;
@@ -49,15 +49,10 @@ body {
 	transform: rotate(90deg);
 	transition: all 0.05s;
 	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
-	box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 .hour-hand {
 	width: 40%;
 	height: 10px;
 	left: 10%;
-}
-
-.second-hand {
-	height: 4px;
 }
